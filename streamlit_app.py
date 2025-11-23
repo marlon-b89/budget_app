@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 st.title("🧮 Budget App 📱")
-st.write("Itemized budgeting and debt payoff visualizer built with Python + Streamlit by Marlon R. Braga")
+st.subheader("Itemized budgeting and debt payoff visualizer built with Python + Streamlit by Marlon R. Braga")
 st.write("The plans of the diligent lead surely to abundance, but those of everyone who is hasty surely to poverty. — Proverbs 21:5")
 
 st.markdown("---")
@@ -60,7 +60,7 @@ st.markdown("---")
 # -----------------------------------------------------------
 
 st.sidebar.title("⚙️ Budget Inputs")
-st.sidebar.subheader("Use this section to input your budget details into the respective buckets and debts.")
+st.sidebar.write("Use this section to input your budget details into the respective buckets and debts.")
 
 # Predefined buckets
 BUCKET_NAMES = [
